@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: blueviolet;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* Conteudo da pagina */
+.conteinerMain {
+  padding: 12% 6% 12% 6%;
+}
+.conteinerHead {
+  background-color: rgba(17, 25, 116, 0.378);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 16px;
+}
+
+.conteinerBody {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  gap: 15px;
+  margin-left: 4%;
+  margin-right: 3%;
+}
+.primeiroLink,
+.segundoLink,
+.terceiroLink,
+.quartoLink {
+  width: 100%; /* Ocupa 100% da largura disponível */
+  max-width: 500px; /* Limita a largura máxima a 500px */
+  height: 50px;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 40px;
+  box-sizing: border-box;
+}
+
+.conteinerIcon {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+  align-items: center;
+}
+
+.imgPerfil {
+  padding: 20px;
+}
+
+a {
+  color: aliceblue;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.butaoLink {
+  background-color: #bfbfbfb8;
+  border: none;
+  border-radius: 50px;
+  padding: 8px;
+  cursor: pointer;
+}
+.butaoLink:hover {
+  background-color: #bfbfbf31;
+}
+
+p {
+  display: flex;
+  color: #033172;
+  justify-content: center;
+  width: 400px;
+  padding: 5%;
+}
+
+@media (max-width: 450px) {
+  p {
+    /* Ajuste as margens para telas menores */
+  }
+}
